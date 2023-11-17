@@ -41,6 +41,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- jQuery (necessary for jQuery plugins) -->
     <script src="assets/js/jquery-3.6.1.min.js"></script>
 </head>
@@ -51,50 +52,49 @@
 
     <!-- header start -->
     <header>
-        <section class="navbar-wrapper">
-            <nav class="">
+        <section class="navbar-wrapper ">
+            <nav class="navbar navbar-expand-lg">
                 <div class="container">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <a class="navbar-brand" href="#">
-                            <img src="assets/img/logo.png" alt="logo" class="img-fluid">
-                        </a>
-                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button> -->
 
-                        <div class=" d-flex menu-btn-wrapper" id="navbarSupportedContent">
-                            <ul class="main-navbar navbar-nav mb-2 mb-lg-0 d-flex align-items-center flex-row gap-5">
-                                <li class="nav-item">
-                                    <a class="" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="" href="#">Courses</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="" href="#">Innovation</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="" href="#">Platform</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="" href="#">About Us</a>
-                                </li>
-                            </ul>
+                    <a class="navbar-brand" href="#">
+                        <img src="assets/img/logo.png" alt="logo" class="img-fluid">
+                    </a>
 
-                            <div class="d-flex flex-row gap-3">
-                                <div class="">
-                                    <a class="btn px-4 login-btn" href="#">Login</a>
-                                </div>
-                                <div class="">
-                                    <a class="btn text-white px-4 register-btn" href="#">Register</a>
-                                </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="menu-btn-wrapper collapse navbar-collapse justify-content-end"
+                        id="navbarSupportedContent">
+                        <ul class="main-navbar navbar-nav mb-2 mb-lg-0 d-block d-lg-flex align-items-center flex-row">
+                            <li class="nav-item">
+                                <a class="" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="#">Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="#">Innovation</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="#">Platform</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="" href="#">About Us</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-flex flex-row gap-3 banner-buttons">
+                            <div class="">
+                                <a class="btn px-4 login-btn" href="#">Login</a>
+                            </div>
+                            <div class="">
+                                <a class="btn text-white px-4 register-btn" href="#">Register</a>
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </nav>
     </header>
@@ -102,7 +102,7 @@
     <!-- header end -->
 
     <!-- main section start  -->
-    <section class="main-section">
+    <section class="main-section overflow-hidden">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5">
@@ -123,13 +123,13 @@
                 <div class="col-lg-7">
                     <div class="right-col text-center">
                         <div>
-                            <img src="assets/img/main-profile.png" alt="profile">
+                            <img class="main-section-img img-fluid" src="assets/img/main-profile.png" alt="profile">
                         </div>
                         <div class="profile-img-shape-1">
-                            <img src="assets/img/g-cap.png" alt="">
+                            <img class="img-fluid" src="assets/img/g-cap.png" alt="">
                         </div>
                         <div class="profile-img-shape-2">
-                            <img src="assets/img/enroll.png" alt="">
+                            <img class="img-fluid" src="assets/img/enroll.png" alt="">
                         </div>
                         <div class="profile-img-shape-3">
                             <img src="assets/img/free-courses.png" alt="">
@@ -156,21 +156,20 @@
                         <h2><span>Edusmart</span> courses?</h2>
                         <p>As we know. On internet we can find many same
                             products like this. But we will tell you why we better</p>
-                        <a class="btn text-white px-4 enroll-btn" href="#">Enroll Now</a>
+                        <a class="edusmart-enroll btn text-white px-4 enroll-btn" href="#">Enroll Now</a>
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="row">
                         <div class="col-lg-6">
-
-                            <div class="expert margin-bottom-30 d-flex flex-column align-items-center">
-                                <img class="justify-content-center" src="assets/img/Expert.png" alt="">
+                            <div class="expert margin-bottom-30 d-flex flex-column align-items-center ">
+                                <img class="justify-content-center img-fluid" src="assets/img/Expert.png" alt="">
                                 <h3>Expert Instructions</h3>
                                 <p>As we know. On internet we can find many same products like this. But we will tell
                                     you why we better</p>
                             </div>
                             <div class="expert d-flex flex-column align-items-center">
-                                <img class="justify-content-center" src="assets/img/Expert-2.png" alt="">
+                                <img class="justify-content-center img-fluid" src="assets/img/Expert-2.png" alt="">
                                 <h3>Expert Instructions</h3>
                                 <p>As we know. On internet we can find many same products like this. But we will tell
                                     you why we better</p>
@@ -178,13 +177,13 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="expert margin-bottom-30 margin-top-90 d-flex flex-column align-items-center">
-                                <img class="justify-content-center" src="assets/img/Expert-3.png" alt="">
+                                <img class="justify-content-center img-fluid" src="assets/img/Expert-3.png" alt="">
                                 <h3>Expert Instructions</h3>
                                 <p>As we know. On internet we can find many same products like this. But we will tell
                                     you why we better</p>
                             </div>
                             <div class="expert d-flex flex-column align-items-center">
-                                <img class="justify-content-center" src="assets/img/Expert-4.png" alt="">
+                                <img class="justify-content-center img-fluid" src="assets/img/Expert-4.png" alt="">
                                 <h3>Expert Instructions</h3>
                                 <p>As we know. On internet we can find many same products like this. But we will tell
                                     you why we better</p>
@@ -205,7 +204,7 @@
         <div class="container">
             <div class="row d-flex align-items-center">
                 <div class="col-lg-6 grow-img"">
-                    <img  src=" assets/img/student-grow.png" alt="">
+                    <img class=" img-fluid student-grow-imgs" src=" assets/img/student-grow.png" alt="">
                 </div>
                 <div class="col-lg-6">
                     <div class="top-col">
@@ -216,15 +215,24 @@
                     <div class="separetor"> </div>
                     <div class="bottom-col d-flex justify-content-between">
                         <div class="total-student">
-                            <h1>12M</h1>
+                            <span>
+                                <span id="count1">12</span>
+                                M
+                            </span>
                             <h3>Total Students</h3>
                         </div>
                         <div class="total-student">
-                            <h1>12M</h1>
+                            <span>
+                                <span id="count2">100</span>
+                                k
+                            </span>
                             <h3>Total Students</h3>
                         </div>
                         <div class="total-student">
-                            <h1>12M</h1>
+                            <span>
+                                <span id="count3">04</span>
+                                k
+                            </span>
                             <h3>Total Students</h3>
                         </div>
 
@@ -335,8 +343,8 @@
     <section class="course">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-7">
-                    <img src="assets/img/course-img.png" alt="">
+                <div class="col-lg-7 text-center">
+                    <img class="img-fluid course-imgs" src="assets/img/course-img.png" alt="">
                 </div>
                 <div class="col-lg-5">
                     <div class="course-info">
@@ -349,7 +357,7 @@
                     <div class="course-bio">
                         <div class="all-bio d-flex">
                             <div class="bio-icon">
-                                <img src="assets/img/b-icon-1.png" alt="">
+                                <img src="assets/img/choose-class.png" alt="">
                             </div>
                             <div class="bio-details">
                                 <h5>Register</h5>
@@ -358,10 +366,19 @@
                         </div>
                         <div class="all-bio d-flex">
                             <div class="bio-icon">
-                                <img src="assets/img/b-icon-1.png" alt="">
+                                <img src="assets/img/pay-bills.png" alt="">
                             </div>
                             <div class="bio-details">
-                                <h5>Register</h5>
+                                <h5>Choose Class</h5>
+                                <p>Second step you go for choose class and start.</p>
+                            </div>
+                        </div>
+                        <div class="all-bio d-flex">
+                            <div class="bio-icon">
+                                <img src="assets/img/enjoy-class.png" alt="">
+                            </div>
+                            <div class="bio-details">
+                                <h5>Pay Bills</h5>
                                 <p>Register first to get started to join the course.</p>
                             </div>
                         </div>
@@ -370,17 +387,8 @@
                                 <img src="assets/img/b-icon-1.png" alt="">
                             </div>
                             <div class="bio-details">
-                                <h5>Register</h5>
-                                <p>Register first to get started to join the course.</p>
-                            </div>
-                        </div>
-                        <div class="all-bio d-flex">
-                            <div class="bio-icon">
-                                <img src="assets/img/b-icon-1.png" alt="">
-                            </div>
-                            <div class="bio-details">
-                                <h5>Register</h5>
-                                <p>Register first to get started to join the course.</p>
+                                <h5>Enjoy the class</h5>
+                                <p>This is 4th step you should enjoy and do the class.</p>
                             </div>
                         </div>
                     </div>
@@ -404,15 +412,120 @@
                 </div>
 
                 <div class="col-lg-7">
-                    <img src="assets/img/member-main-img.png" alt="">
+                    <img class="img-fluid" src="assets/img/member-main-img.png" alt="">
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- free class area start  -->
+    <section class="free-class">
+        <div class="container">
+            <div class="row">
+                <div class="free-class-heading text-center">
+                    <h1>Join and Get 30 Days free Class</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available</p>
+                </div>
+                <div class="free-class-sub ">
+                    <form class="all-free-item text-center" action="#">
+                        <label class="free-label d-inline-flex justify-content-between w-50" for="">
+                            <input class="free-email" type="text" name="EmailAddress" placeholder="Enter Your Email">
+                            <button class="free-btn" type="Submit">Subscribe</button>
+                        </label>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- free class area start  -->
+
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer-icon-bio">
+                        <img src="assets/img/logo.png" alt="">
+                        <p class="w-75">It is a long established fact that reader will be distracted by the readable
+                            work</p>
+                    </div>
+                    <div class="footer-contact d-flex align-items-center ">
+                        <img src="assets/img/lo-icon.png" alt="">
+                        <p class="mb-0">Address: 101 Pickens Way Cooper, TX 41251</p>
+                    </div>
+                    <div class="footer-contact d-flex align-items-center ">
+                        <img src="assets/img/po-icon.png" alt="">
+                        <p class="mb-0">Phone: 1-800-123-45-67</p>
+                    </div>
+                    <div class="footer-contact d-flex align-items-center ">
+                        <img src="assets/img/email-icon.png" alt="">
+                        <p class="mb-0">Mail: example@example.com</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-heads">About Us</h4>
+                            <ul class="about-us">
+                                <li><a href="">Graduation</a></li>
+                                <li><a href="">Admission</a></li>
+                                <li><a href="">Internationa</a></li>
+                                <li><a href="">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-heads">Our Service</h4>
+                            <ul class="about-us">
+                                <li><a href="">Courses</a></li>
+                                <li><a href="">Blog Post</a></li>
+                                <li><a href="">Free Course</a></li>
+                                <li><a href="">Event</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-heads">Helpful Links</h4>
+                            <ul class="about-us">
+                                <li><a href="">Site Map</a></li>
+                                <li><a href="">Affiliate Programe</a></li>
+                                <li><a href="">Blog Post</a></li>
+                                <li><a href="">Resume Example</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <h4 class="footer-heads">Information</h4>
+                            <ul class="about-us">
+                                <li><a href="">Help & Support</a></li>
+                                <li><a href="">Privacy & Policy</a></li>
+                                <li><a href="">Pricing</a></li>
+                                <li><a href="">Terms & Condition</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
 
 
 
+                </div>
+            </div>
+
+        </div>
+        <section class="copy-section">
+            <div class="container">
+                <div class="footer-copyright d-flex justify-content-between">
+                    <h5 class="mb-0">Copyright © 2022 all rights reserved Edusmart</h5>
+                    <div class="social-icons">
+                        <img src="assets/img/twitter.png" alt="">
+                        <img src="assets/img/fb.png" alt="">
+                        <img src="assets/img/insta.png" alt="">
+                        <img src="assets/img/linkdin.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
 
 

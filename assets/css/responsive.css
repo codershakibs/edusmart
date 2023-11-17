@@ -1,0 +1,144 @@
+@media (max-width: 575px) {}
+
+
+@media (max-width: 767px) {
+    .free-email {
+        font-size: 13px;
+
+    }
+
+    .free-btn {
+        padding: 0px 3px;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    .main-navbar li a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    .banner-buttons {
+        justify-content: center;
+
+    }
+
+    .main-section-img {
+        padding-left: 0px;
+    }
+
+    .edusmart-enroll {
+        margin-top: 0px;
+    }
+
+    .edusmart-left-col {
+        text-align: center;
+    }
+
+    .edusmart-left-col {
+        padding-bottom: 20px;
+    }
+
+    .expert {
+        margin-top: 30px;
+    }
+
+    .grow-img {
+        text-align: center;
+    }
+
+    .ins-area {
+        flex-direction: column;
+    }
+
+    .profile-img-shape-1 {
+
+        left: calc(14% - 16px);
+
+    }
+
+    .profile-img-shape-3 {
+
+        left: 69%;
+    }
+
+    .profile-img-shape-2 {
+        left: 0%;
+    }
+
+    .instructor-info h1 {
+        text-align: center;
+    }
+
+    .instructor-bio p {
+        padding-top: 12px;
+    }
+
+    .member-right {
+        text-align: center;
+    }
+
+    .free-btn {
+
+        padding: 0px 12px;
+
+
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .footer-icon-bio {
+        text-align: center;
+    }
+
+    .footer-contact {
+        justify-content: center;
+    }
+
+    .student-grow-imgs {
+
+        margin-right: -46px;
+    }
+
+    .course-imgs {
+        margin-right: -70px;
+    }
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 1199px) {
+    .main-navbar {
+        gap: 25px;
+    }
+
+    .about-us {
+        gap: 20px;
+    }
+
+    .footer-heads {
+        font-size: 20px;
+    }
+
+    .about-us li a {
+        font-size: 14px;
+
+    }
+
+}
+
+
+@media (max-width: 1400px) {}

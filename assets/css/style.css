@@ -40,6 +40,7 @@ body {
 }
 
 .register-btn {
+    padding: 7px 0px;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -55,6 +56,10 @@ body {
 .register-btn:hover {
     color: rgb(255, 0, 0);
     border: 2px solid var(--color-primary-main);
+}
+
+.main-navbar {
+    gap: 40px;
 }
 
 .main-navbar li a {
@@ -84,9 +89,15 @@ body {
 
 
 /* main section start  */
+
+.main-section-img {
+    padding-left: 174px;
+}
+
 .main-section {
     background-color: var(--bg-primary);
-    height: 661.59px;
+    padding-bottom: 70px;
+
 }
 
 .left-col {
@@ -149,25 +160,26 @@ body {
 
 .right-col {
     position: relative;
-    margin-top: 70px;
+    margin-top: 35px;
 }
 
 .profile-img-shape-1 {
     position: absolute;
-    left: calc(15% - 16px);
+    left: calc(28% - 16px);
     top: calc(30% - 48px);
 }
 
 .profile-img-shape-2 {
     position: absolute;
-
     top: calc(66% - 40px);
+    left: 14%;
 }
 
 .profile-img-shape-3 {
     position: absolute;
     right: 0;
     top: calc(50% - 48px);
+    left: 78%;
 }
 
 .mains-btn {
@@ -181,13 +193,33 @@ body {
     padding: 100px 0;
 }
 
-
-
 .edusmart-left-col h2 {
     font-size: 45px;
     font-style: normal;
     font-weight: 600;
-    line-height: 54px;
+    line-height: 40px;
+}
+
+.edusmart-enroll {
+    margin-top: 40px;
+}
+
+.bio-details h5 {
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color: #263238;
+
+}
+
+.bio-details p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5D6568;
 }
 
 .edusmart-left-col span {
@@ -199,6 +231,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
+    padding-top: 20px;
 }
 
 .expert h3 {
@@ -216,6 +249,7 @@ body {
     text-align: center;
 
 }
+
 
 .expert img {
     width: 56px;
@@ -271,7 +305,6 @@ body {
     width: 100%;
     height: 1px;
     background: #E0E0E0;
-    justify-content: center;
     margin: 46px 0 32px 0;
 
 }
@@ -283,7 +316,7 @@ body {
 
 }
 
-.total-student h1 {
+.total-student span {
     font-size: 38px;
     font-style: normal;
     font-weight: 600;
@@ -436,3 +469,200 @@ body {
 }
 
 /* member area end  */
+
+/* free class area start  */
+
+
+.free-class {
+    padding: 100px 0px;
+    background-image: url('../img/free-class-bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.free-label {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.free-email {
+    font-size: 18px;
+    color: #000;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    width: 100%;
+
+
+}
+
+.free-email ::placeholder {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.free-class-sub {
+    padding-top: 40px;
+}
+
+.free-btn {
+    color: #fff;
+    padding: 15px 45px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #333333;
+    cursor: pointer;
+}
+
+.free-btn .submit {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.free-btn:hover {
+    background: #4769d7;
+}
+
+.free-class-heading h1 {
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    padding-bottom: 20px;
+}
+
+.free-class-heading p {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* free class area start  */
+
+.footer-section {
+    padding: 100px 0 0 0;
+}
+
+.footer-contact img {
+    padding-right: 10px;
+}
+
+.footer-contact {
+    padding-top: 20px;
+}
+
+.footer-icon-bio img {
+    padding-bottom: 30px;
+}
+
+..footer-icon-bio p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-contact p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.about-us {
+    list-style: none;
+}
+
+.about-us li {
+    padding-bottom: 22px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    color: #5D6568;
+}
+
+.about-us li a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.about-us li a:hover {
+    color: #fff;
+    box-shadow: inset 200px 0 0 0 #54b3d6;
+    ;
+}
+
+
+.about-us .footer-heads {
+    color: #263238;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-heads {
+    padding: 40px 0 22px 0;
+
+}
+
+/* copyright sec start  */
+
+.footer-copyright {
+
+    padding: 25px 0px;
+}
+
+.social-icons img {
+    padding-right: 15px;
+}
+
+.social-icons {
+    margin-right: 30px;
+}
+
+.footer-copyright h5 {
+    color: #5D6568;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.copy-section {
+    background-color: #E4F5F2;
+    margin-top: 50px;
+
+}
+
+.about-us li a {
+    text-decoration: none;
+    color: #5D6568;
+}
+
+/* copyright sec end  */
